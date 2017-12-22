@@ -1,6 +1,7 @@
 package org.kirillgaidai.templates.springwebapp;
 
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
@@ -8,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
+@Configuration
 @ComponentScan(value = {"org.kirillgaidai.templates.springwebapp"})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
