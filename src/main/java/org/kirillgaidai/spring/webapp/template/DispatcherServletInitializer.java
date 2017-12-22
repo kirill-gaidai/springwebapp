@@ -1,4 +1,4 @@
-package org.kirillgaidai.templates.springwebapp;
+package org.kirillgaidai.spring.webapp.template;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;

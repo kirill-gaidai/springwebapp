@@ -26,7 +26,7 @@
     <!-- additivity: true/false - this logger output will be/will not be added to upper loggers -->
 
     <Loggers>
-        <Logger name="org.kirillgaidai.templates.springwebapp" level="info" additivity="false">
+        <Logger name="org.kirillgaidai.spring.webapp.template" level="info" additivity="false">
             <AppenderRef ref="console-appender"/>
             <AppenderRef ref="file-appender"/>
         </Logger>

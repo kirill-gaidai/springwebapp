@@ -1,4 +1,4 @@
-package org.kirillgaidai.templates.springwebapp;
+package org.kirillgaidai.spring.webapp.template;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(value = {"org.kirillgaidai.templates.springwebapp"})
+@ComponentScan("org.kirillgaidai.spring.webapp.template")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Override

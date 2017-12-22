@@ -1,4 +1,4 @@
-package org.kirillgaidai.templates.springwebapp;
+package org.kirillgaidai.spring.webapp.template;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
