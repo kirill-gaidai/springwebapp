@@ -14,7 +14,7 @@ public class HomeController {
 
     @RequestMapping(value = {"/index.html", "/"}, method = RequestMethod.GET)
     public ModelAndView showIndexPage() {
-        LOGGER.info("entering showIndexPage method...");
+        LOGGER.info("Entering method");
         return new ModelAndView("index", "message", "Hello, World!");
     }
 
